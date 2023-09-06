@@ -3,7 +3,7 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		int ika = 40;
+		int ika = 100;
 
 		
 		if (ika > 0 && ika < 18) 
@@ -17,10 +17,7 @@ public class main {
 			else if (ika >= 15)
 			{
 			System.out.println("Saat ajaa mopoa"); 
-			}
-			
-			}
-			
+			}}
 			else if (ika >= 18 && ika < 65)
 			{
 				System.out.println("Olet aikuinen");
@@ -54,10 +51,7 @@ public class main {
 			if (ika == 100)
 			{
 				System.out.println
-				("Hei,"
-						+"\nsuuret onnittelut"
-						+ "\nja hyvää jatkoa"		);
-				
+				("Hei," + "\nsuuret onnittelut" + "\nja hyvää jatkoa");
 			}
 			
 			
