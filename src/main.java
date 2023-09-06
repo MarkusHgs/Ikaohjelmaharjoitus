@@ -1,10 +1,15 @@
-
+import java.util.Scanner;
 public class main {
 
 	public static void main(String[] args) {
 		
-		int ika = 100;
-
+		Scanner in= new Scanner(System.in);
+		
+		String ikakysy;
+		System.out.println("Kirjoita ikäsi");
+		ikakysy = in.nextLine();
+		int ika;
+		ika = Integer.parseInt(ikakysy);
 		
 		if (ika > 0 && ika < 18) 
 			{
