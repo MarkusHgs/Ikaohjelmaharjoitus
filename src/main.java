@@ -5,8 +5,6 @@ public class main {
 		
 		int ika = 40;
 
-		// Tulostusehdot
-		
 		
 		if (ika > 0 && ika < 18) 
 			{
